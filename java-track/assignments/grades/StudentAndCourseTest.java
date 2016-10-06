@@ -1,4 +1,5 @@
-package pset9;
+package grades;
+
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -18,6 +19,7 @@ public class StudentAndCourseTest extends TestCase {
 	String s6 = "The plus method shouldn't change the original vector";
 	String s8 = "hasHigherAverage() isn't working properly";
 	String s9 = "getClassStanding() isn't working properly";
+	
 	@Test
 	public void testStudentInit() {
 		Student s = new Student("Doug", "Shook", 111111);
@@ -63,7 +65,7 @@ public class StudentAndCourseTest extends TestCase {
 		}
 
 	}
-
+    
 	@Test
 	public void testSubmitGrade() {
 		Student s = new Student("D", "S", 1);
